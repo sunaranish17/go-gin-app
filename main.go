@@ -33,6 +33,9 @@ func main() {
 		)
 	})
 
+	//Initialize the routes
+	initializeRoutes()
+
 	//Start serving the application
 	router.Run()
 }
